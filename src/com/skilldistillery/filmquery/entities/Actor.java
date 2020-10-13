@@ -1,18 +1,24 @@
 package com.skilldistillery.filmquery.entities;
 
 public class Actor {
-	private int actorID;
+	private int actorId;
 	private String actorFName;
 	private String actorLName;
 	
 	public Actor() {}
 
+	public Actor (int id, String firstName, String lastName) {
+		this.actorId = id;
+		this.actorFName = firstName;
+		this.actorLName = lastName;
+	}
+
 	public int getActorID() {
-		return actorID;
+		return actorId;
 	}
 
 	public void setActorID(int actorID) {
-		this.actorID = actorID;
+		this.actorId = actorID;
 	}
 
 	public String getActorFName() {
@@ -33,7 +39,7 @@ public class Actor {
 
 	@Override
 	public String toString() {
-		return "Actor [actorID=" + actorID + ", actorFName=" + actorFName + ", actorLName=" + actorLName + "]";
+		return "Actor [actorID=" + actorId + ", actorFName=" + actorFName + ", actorLName=" + actorLName + "]";
 	}
 
 	@Override
@@ -41,7 +47,7 @@ public class Actor {
 		final int prime = 31;
 		int result = 1;
 		result = prime * result + ((actorFName == null) ? 0 : actorFName.hashCode());
-		result = prime * result + actorID;
+		result = prime * result + actorId;
 		result = prime * result + ((actorLName == null) ? 0 : actorLName.hashCode());
 		return result;
 	}
@@ -60,7 +66,7 @@ public class Actor {
 				return false;
 		} else if (!actorFName.equals(other.actorFName))
 			return false;
-		if (actorID != other.actorID)
+		if (actorId != other.actorId)
 			return false;
 		if (actorLName == null) {
 			if (other.actorLName != null)
