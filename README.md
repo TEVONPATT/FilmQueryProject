@@ -1,6 +1,6 @@
 ## Film Query Project
 
-# what is this project about:
+# What this project is about:
 ### The purpose of this project is to illustrate how SQL can be used in combination with Java to collect desired data from a table on a server.
 
 ### [How it works]
