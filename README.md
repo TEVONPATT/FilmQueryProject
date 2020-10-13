@@ -9,4 +9,4 @@
 3. The menu will continue to appear until you choose option 3, "Exit". Once selected, you will receive a exit message and the program will terminate.
 
 ## What I've learned:
-### I have learned how to access a database on a server using SQL together with Java classes and methods.
+I have learned how to access a database on a server using SQL together with Java classes and methods.
