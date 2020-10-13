@@ -78,7 +78,7 @@ public class FilmQueryApp {
 		System.out.println("  ||   2) Look up a film by a search keyword      ||  ");
 		System.out.println("  ||   3) Exit                                    ||  ");
 		System.out.println("  ||                                              ||  ");
-		System.out.println("}++++++++++++++++++++++++++++++++++++++++++++++++++++{");
+		System.out.println(" ---------------------------------------------------- ");
 	}
 
 	private void idMenu() {
@@ -87,11 +87,11 @@ public class FilmQueryApp {
 		System.out.println("}|  {}  {} |   ANY IDea what you seek?  |   {}  {}  | {");
 		System.out.println("}|  ++++++++                            ++++++++++  | {");
 		System.out.println("}++++++++++++++++++++++++++++++++++++++++++++++++++++{");
-		System.out.println("  ||           ______________________             ||  ");
-		System.out.println("  ||          |                      |            ||  ");
-		System.out.println("  ||          | Enter in the film id |            ||  ");
-		System.out.println("  ||          |                      |            ||  ");
-		System.out.println("  ||          |                      |            ||  ");
+		System.out.println("  ||              ____________                    ||  ");
+		System.out.println("  ||             | ENTER FILM |           __      ||  ");
+		System.out.println("  ||             |     ID     |          ('')     ||  ");
+		System.out.println("  ||             |  o         |         /|  |/    ||  ");
+		System.out.println("  ||             |            |          / |      ||  ");
 		System.out.println(" ---------------------------------------------------- ");
 	}
 
@@ -103,7 +103,7 @@ public class FilmQueryApp {
 		System.out.println("}++++++++++++++++++++++++++++++++++++++++++++++++++++{");
 		System.out.println("  ||                                              ||  ");
 		System.out.println("  ||                                              ||  ");
-		System.out.println("  ||               Enter in keyword               ||  ");
+		System.out.println("  ||               Enter in KEYWORD               ||  ");
 		System.out.println("  ||                     __ -------               ||  ");
 		System.out.println("  ||                    (  )/                     ||  ");
 		System.out.println("  ||                   /|  |                      ||  ");
