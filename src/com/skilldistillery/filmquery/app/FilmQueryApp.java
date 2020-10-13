@@ -67,29 +67,47 @@ public class FilmQueryApp {
 	}
 
 	private void userMenu1() {
+		System.out.println("} __________________________________________________  {");
+		System.out.println("}|           ____________________________           | {");
+		System.out.println("}|   ()  () |         WELCOME TO         |   ()  () | {");
+		System.out.println("}|  +++++++++     BEST OPTION MOVIES     +++++++++  | {");
 		System.out.println("}++++++++++++++++++++++++++++++++++++++++++++++++++++{");
-		System.out.println("  ||                                              ||");
-		System.out.println("  ||  How would you like to search for the film?  ||");
-		System.out.println("  ||   1) Look up a film by its id                ||");
-		System.out.println("  ||   2) Look up a film by a search keyword      ||");
-		System.out.println("  ||   3) Exit                                    ||");
-		System.out.println("  ||                                              ||");
+		System.out.println("  ||                                              ||  ");
+		System.out.println("  ||  How would you like to search for the film?  ||  ");
+		System.out.println("  ||   1) Look up a film by its id                ||  ");
+		System.out.println("  ||   2) Look up a film by a search keyword      ||  ");
+		System.out.println("  ||   3) Exit                                    ||  ");
+		System.out.println("  ||                                              ||  ");
 		System.out.println("}++++++++++++++++++++++++++++++++++++++++++++++++++++{");
 	}
 
 	private void idMenu() {
+		System.out.println("} __________________________________________________  {");
+		System.out.println("}|          ____________________________            | {");
+		System.out.println("}|  {}  {} |   ANY IDea what you seek?  |   {}  {}  | {");
+		System.out.println("}|  ++++++++                            ++++++++++  | {");
 		System.out.println("}++++++++++++++++++++++++++++++++++++++++++++++++++++{");
-		System.out.println("  ||                                              ||");
-		System.out.println("  ||            Enter in the film id              ||");
-		System.out.println("  ||                                              ||");
-		System.out.println("}++++++++++++++++++++++++++++++++++++++++++++++++++++{");
+		System.out.println("  ||           ______________________             ||  ");
+		System.out.println("  ||          |                      |            ||  ");
+		System.out.println("  ||          | Enter in the film id |            ||  ");
+		System.out.println("  ||          |                      |            ||  ");
+		System.out.println("  ||          |                      |            ||  ");
+		System.out.println(" ---------------------------------------------------- ");
 	}
 
 	private void kwMenu() {
+		System.out.println("} __________________________________________________  {");
+		System.out.println("}|          ____________________________            | {");
+		System.out.println("}|  <>  <> |   ANY WORDS COME TO MIND?  |   <>  <>  | {");
+		System.out.println("}|  ++++++++                            ++++++++++  | {");
 		System.out.println("}++++++++++++++++++++++++++++++++++++++++++++++++++++{");
-		System.out.println("  ||                                              ||");
-		System.out.println("  ||               Enter in keyword               ||");
-		System.out.println("  ||                                              ||");
-		System.out.println("}++++++++++++++++++++++++++++++++++++++++++++++++++++{");
+		System.out.println("  ||                                              ||  ");
+		System.out.println("  ||                                              ||  ");
+		System.out.println("  ||               Enter in keyword               ||  ");
+		System.out.println("  ||                     __ -------               ||  ");
+		System.out.println("  ||                    (  )/                     ||  ");
+		System.out.println("  ||                   /|  |                      ||  ");
+		System.out.println("  ||                     ||                       ||  ");
+		System.out.println(" ---------------------------------------------------- ");
 	}
 }
